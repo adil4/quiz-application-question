@@ -1,42 +1,41 @@
 
-
 var Question = [{
-    "Question": "What is the full form of IP?",
-    "option1":"internet provider",
-    "option2":"Internet Port",
-    "option3":"internet Protocol",
-    "option4":"other",
+    "Question": "there are _______ surahs of the HOLY QURAN",
+    "option1":"120",
+    "option2":"114",
+    "option3":"118",
+    "option4":"104",
 
     "answer": "2"
 }, {
-    "Question": "Who is the founder of Microsoft?",
-    "option1":"Bill Gates",
-    "option2":"Steve Jobs",
-    "option3":"Steve Wozniak",
-    "option4":"other",
-    "answer": "0"
-}, {
-    "Question": "1 byte = ?",
-    "option1":"8 bits",
-    "option2":"64 bits",
-    "option3":"1024 bits",
-    "option4":"32 bits",
-    "answer": "0"
-}, {
-    "Question": "The C programming language was developed by?",
-    "option1":"Brendan Eich",
-    "option2":"Dennis Ritchie",
-    "option3":"Guido van Rossum",
-    "option4":"other",
+    "Question": "The first revelation was written by________?",
+    "option1":"Khalid Bin Saeed(RA)",
+    "option2":"Zaid Bin Harith(RA)",
+    "option3":"none of these",
+    "option4":"Hazrat Abu Bakr(RA)",
     "answer": "1"
 }, {
-    "Question": "What does CC mean in emails?",
-    "option1":"Carbon Copy",
-    "option2":"Creative Commons",
-    "option3":"Hard copy",
-    "option4":"other",
-    "choices": ["", "", ""],
-    "answer": "0"
+    "Question": "The first caliph of islam was ________ ?",
+    "option1":"HAZRAT ALI(RA)",
+    "option2":"HAZRAT ABU BAKR(RA)",
+    "option3":"None of these",
+    "option4":"HAZRAT UMER(RA)",
+    "answer": "2"
+}, {
+    "Question": "Hazrat MUHAMMAD (S.A.W)Was Bron In_________ ?",
+    "option1":"Najd",
+    "option2":"None of these",
+    "option3":"Taif",
+    "option4":"Makkah",
+    "answer": "4"
+}, {
+    "Question": "The first Muazzin of ISLAM was ___________ ?",
+    "option1":"HAZRAT BILAL(RA)",
+    "option2":"HAZRAT UBAIDULLAH(RA)",
+    "option3":"HAZRAT HUSSAIN(RA)",
+    "option4":"None of these",
+    //"choices": ["", "", ""],
+    "answer": "1"
 }];
 
 var currentQuestion = 0;
