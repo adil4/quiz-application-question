@@ -22,12 +22,12 @@ var Question = [{
     "option4":"HAZRAT UMER(RA)",
     "answer": "2"
 }, {
-    "Question": "Hazrat MUHAMMAD (??? ???? ???? ???? )Was Bron In_________ ?",
-    "option1":"Najd",
-    "option2":"None of these",
-    "option3":"Taif",
+    "Question": "_______ is the qibla of the Muslim",
+    "option1":"Baitul-Luhum",
+    "option2":"Baitul-Muqdas",
+    "option3":"Kaabatullah",
     "option4":"Makkah",
-    "answer": "4"
+    "answer": "None the these"
 }, {
     "Question": "The first Muazzin of ISLAM was ___________ ?",
     "option1":"HAZRAT BILAL(RA)",
