@@ -22,7 +22,7 @@ var Question = [{
     "option4":"HAZRAT UMER(RA)",
     "answer": "2"
 }, {
-    "Question": "Hazrat MUHAMMAD (S.A.W)Was Bron In_________ ?",
+    "Question": "Hazrat MUHAMMAD (??? ???? ???? ???? )Was Bron In_________ ?",
     "option1":"Najd",
     "option2":"None of these",
     "option3":"Taif",
@@ -53,7 +53,7 @@ var resultCont = document.getElementById("result");
 var totQuestions = Question.length;
 
 function loadQuestion (questionIndex){
-console.log(Question)
+
     var q = Question[questionIndex];
     questionEl = document.getElementById("Question");
     questionEl.textContent = (questionIndex + 1)+ '.' + q.Question;
@@ -73,15 +73,16 @@ function loadNextQuestion (){
     if(currentQuestion < 5 && Question[currentQuestion].answer == answer){
         score += 10;
     }
+
     selectedOption.checked = false;
-    currentQuestion++;
-    if(currentQuestion == totQuestions - 1){
-        nextButton.textContent ='Finish';
+        currentQuestion++;
+        if(currentQuestion == totQuestions - 1){
+            nextButton.textContent ='Finish';
     }
     if(currentQuestion == totQuestions){
         container.style.display ='none';
         resultCont.style.display ='';
-        resultCont.textContent = 'your score:'+score;
+        resultCont.textContent = 'your score:'+ score;
         return;
     }
     loadQuestion(currentQuestion);
